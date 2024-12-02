@@ -56,3 +56,8 @@ body {
 }
 
 
+.search-box input::placeholder {
+    color: #fff;
+    text-transform: capitalize;
+}
+
