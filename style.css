@@ -34,3 +34,9 @@ body {
     align-items: center;
 }
 
+.search-box i {
+ position: absolute;
+ left: 10px;
+ font-size: 28px;   
+}
+
