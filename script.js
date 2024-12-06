@@ -35,7 +35,23 @@ search.addEventListener('click', () => {
         const humidity = document.querySelector('.weather-details .humidity span');
         const wind = document.querySelector('.weather-details .wind span');
 
-              
+        if (cityHide.textContent == city) {
+            return;
+        }
+        else {
+            cityHide.textContent = city;
+
+            container.style.height = '555px';
+            container.classList.add('active');
+            weatherBox.classList.add('active');
+            weatherDetails.classList.add('active');
+            error404.classList.remove('active');
+
+            setTimeout(() => {
+                container.classList.remove('active');
+            }, 2500);
+
+               
 
             });
 });
