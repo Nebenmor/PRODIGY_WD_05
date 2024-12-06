@@ -171,3 +171,9 @@ body {
     transform: translateY(-100%);
 }
 
+.weather-details .humidity .info-humidity,
+.weather-details .wind .info-wind {
+    transform: translateY(-100%);
+    overflow: hidden;
+}
+
