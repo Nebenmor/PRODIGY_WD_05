@@ -249,3 +249,10 @@ body {
     transform: translateY(0%);
 }
 
+#clone-info-humidity span,
+#clone-info-wind span {
+    transform: translateY(100%);
+    transition: transform 1s ease;
+}
+
+
