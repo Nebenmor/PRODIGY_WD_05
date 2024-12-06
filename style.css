@@ -192,3 +192,9 @@ body {
     margin-right: 10px;
 }
 
+.weather-details span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+
