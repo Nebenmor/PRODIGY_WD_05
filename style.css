@@ -105,3 +105,10 @@ body {
     transform: translateY(-100%);
 }
 
+.weather-box.active .box,
+.not-found.active .box {
+    transform: translateY(0%);
+    transition: transform 1s ease;
+    transition-delay: .6s;
+}
+
