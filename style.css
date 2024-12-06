@@ -245,3 +245,7 @@ body {
     transition-delay: 0s;
 }
 
+.active-clone#clone-info-weather .weather {
+    transform: translateY(0%);
+}
+
