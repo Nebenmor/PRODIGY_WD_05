@@ -89,6 +89,10 @@ search.addEventListener('click', () => {
             const infoHumidity = document.querySelector('.info-humidity');
             const infoWind = document.querySelector('.info-wind');
 
+            const elCloneInfoWeather = infoWeather.cloneNode(true);
+            const elCloneInfoHumidity = infoHumidity.cloneNode(true);
+            const elCloneInfoWind = infoWind.cloneNode(true);
+
             
             }
         }      
