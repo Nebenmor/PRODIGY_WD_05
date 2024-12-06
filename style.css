@@ -240,3 +240,8 @@ body {
     transition-delay: 0s, 2s;
 }
 
+.weather-box:not(.active) #clone-info-weather .weather {
+    opacity: 0;
+    transition-delay: 0s;
+}
+
