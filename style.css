@@ -100,3 +100,8 @@ body {
     visibility: visible;
 }
 
+.weather-box .box,
+.not-found .box {
+    transform: translateY(-100%);
+}
+
