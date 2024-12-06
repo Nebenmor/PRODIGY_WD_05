@@ -85,6 +85,10 @@ search.addEventListener('click', () => {
             humidity.innerHTML = `${json.main.humidity}%`;
             wind.innerHTML = `${parseInt(json.wind.speed)}Km/h`;
 
+            const infoWeather = document.querySelector('.info-weather');
+            const infoHumidity = document.querySelector('.info-humidity');
+            const infoWind = document.querySelector('.info-wind');
+
             
             }
         }      
