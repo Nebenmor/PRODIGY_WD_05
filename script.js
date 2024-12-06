@@ -93,9 +93,10 @@ search.addEventListener('click', () => {
             const elCloneInfoHumidity = infoHumidity.cloneNode(true);
             const elCloneInfoWind = infoWind.cloneNode(true);
 
+            elCloneInfoWeather.id = 'clone-info-weather';
+            elCloneInfoWeather.classList.add('active-clone');
             
-            }
-        }      
+            elCloneInfoHumidity.id = 'clone-info-humidity';
+            elCloneInfoHumidity.classList.add('active-clone');
 
-            });
-});
+            
