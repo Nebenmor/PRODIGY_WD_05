@@ -99,4 +99,15 @@ search.addEventListener('click', () => {
             elCloneInfoHumidity.id = 'clone-info-humidity';
             elCloneInfoHumidity.classList.add('active-clone');
 
+            elCloneInfoWind.id = 'clone-info-wind';
+            elCloneInfoWind.classList.add('active-clone');
+
+            setTimeout(() => {
+                infoWeather.insertAdjacentElement("afterend", elCloneInfoWeather);
+                infoHumidity.insertAdjacentElement("afterend", elCloneInfoHumidity);
+                infoWind.insertAdjacentElement("afterend", elCloneInfoWind);
+            }, 2200);
+
             
+            });
+});
