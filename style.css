@@ -154,3 +154,12 @@ body {
     text-transform: capitalize;
 }
 
+.weather-details {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+}
+
