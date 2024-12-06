@@ -187,3 +187,8 @@ body {
     justify-content: flex-end;
 }
 
+.weather-details i {
+    font-size: 56px;
+    margin-right: 10px;
+}
+
