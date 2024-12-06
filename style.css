@@ -217,3 +217,26 @@ body {
     width: 65%;
 }
 
+.not-found p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.city-hide {
+    display: none;
+}
+
+#clone-info-weather,
+#clone-info-humidity,
+#clone-info-wind {
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+#clone-info-weather .weather {
+    transform: translateY(120%);
+    transition: transform 1s ease, opacity 0s;
+    transition-delay: 0s, 2s;
+}
+
